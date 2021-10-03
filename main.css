@@ -1,43 +1,108 @@
-h1{
-    color: red;
-    font-size: 2em;
+body{
+    padding: 0 0;
+    margin: 0 0;
+    font-family: "OpenSans";
+    font-weight: Regular;
 }
-h2{
-    background-color: green;
-    color: white;
-    padding: 10px;
+h1 h2 h3 h4 h5 h6{
+    font-family: "Ubuntu";
+    font-weight: bold;
 }
-li{
-    border: 2px solid black;
-    font-size: 50px;
+header{
+        background-image: -moz-linear-gradient( 121deg, rgb(55,143,217) 0%, rgb(78,190,254) 100%);
+        background-image: -webkit-linear-gradient( 121deg, rgb(55,143,217) 0%, rgb(78,190,254) 100%);
+        background-image: -ms-linear-gradient( 121deg, rgb(55,143,217) 0%, rgb(78,190,254) 100%);
 }
-p{
-    font-size: 1.5em;
+.site{
+    padding: 0 375px;
+    padding-top: 62px;
+    padding-bottom: 213px;
 }
-section{
-    font-size: 1.5em;
+.head{
+    display: flex;
+    justify-content: space-between;
 }
-footer{
-    font-size: 1.5em;
+.text_head{
+    font-size: 37px;
+    font-family: "Ubuntu";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.324;
+    font-size: 37px;
+    margin-bottom: 0;
+    margin-top: 140px;
+    width: 534px;
+}
+.text_head span{
+    font-size: 59px;
+}
+.intro{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.688;
+    font-size: 16px;
+  }
+.button_head{
+    width: 222px;
+    height: 57px;
+    background-color: yellow;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    font-weight: Black;
+    border: none;
+    font-size: 15px;
+}
+.block{
+    display: flex;
+}
+h3{
+    text-align: center;
+}
+.block_info1{
+    text-align: center;
+}
+.block_info2{
+    text-align: center;
+    margin: 0 140px;
+}
+.block_info3{
+    text-align: center;
+}
+.site_2{
+    padding-top: 105px;
+    padding-bottom: 120px;
+}
+.site_3{
+    color: #ecf3f8;
+    padding-top: 110px;
+    padding-bottom: 97px;
+    text-align: center;
+    display: block;
 }
 input{
-    font-size: 1.5em;
+    display: block;
+    margin: 0 414px;
+    height: 46px;
+    width: 314px;
+    border: 1px solid #bbbbbb;
+    font-size: 15px;
+    color: #a6a5a9;
+    padding-left: 25px;
 }
-button{
-    font-size: 1.5em;
+.button_form{
+    background-color:ffd429;
+    width: 343px;
+    height: 55px;
+    margin: 0 414px;
 }
-.block_H2{
-    padding: 30px;
-    background-color:green;
+.footer{
+    text-align: center;
+    font-size: 14px;
+    margin: 0 0;
+    padding: 60px 0;
+    color:white;
 }
-.text_p{
-    width: 150px;
-    background-color:blue;
-    color: white;
-}
-.text_p_2{
-    color: red;
-}
-.text_p_3{
-    margin: 5px 100px;
+footer{
+    background-color: #164d7a;
+    margin: 0 0;
 }
