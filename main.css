@@ -170,20 +170,17 @@ footer{
         width:90%;
     }
     .intro{
-        width: 310px;
+        width: 300px;
     }
     .head_img{
-        width: 310px;
-        height: 310px;
+        width: 300px;
+        height: 300px;
     }
     input{
-        width: 310px;
+        width: 300px;
     }
     .button_form{
-        width:  310px;
+        width:  300px;
         margin: 0 0;
-    }
-    .footer{
-        width: 310px;
     }
 }
